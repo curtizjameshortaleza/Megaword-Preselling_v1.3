@@ -1,0 +1,190 @@
+{
+  "UptownArtsResidence": {
+    "Facade": [
+      "./img/UptownArtsResidence/Facade/1.webp",
+      "./img/UptownArtsResidence/Facade/2.webp",
+      "./img/UptownArtsResidence/Facade/3.webp",
+      "./img/UptownArtsResidence/Facade/4.webp",
+      "./img/UptownArtsResidence/Facade/5.webp",
+      "./img/UptownArtsResidence/Facade/6.webp",
+      "./img/UptownArtsResidence/Facade/7.webp",
+      "./img/UptownArtsResidence/Facade/8.webp",
+      "./img/UptownArtsResidence/Facade/9.webp"
+    ],
+    "Floorplan": [
+      "./img/UptownArtsResidence/Floorplan/1.webp",
+      "./img/UptownArtsResidence/Floorplan/2.webp",
+      "./img/UptownArtsResidence/Floorplan/3.webp",
+      "./img/UptownArtsResidence/Floorplan/4.webp",
+      "./img/UptownArtsResidence/Floorplan/5.webp",
+      "./img/UptownArtsResidence/Floorplan/6.webp"
+    ]
+  },
+  "ParkMckinleyWest": {
+    "Facade": [
+      "./img/ParkMckinleyWest/Facade/1.webp",
+      "./img/ParkMckinleyWest/Facade/2.webp",
+      "./img/ParkMckinleyWest/Facade/3.webp",
+      "./img/ParkMckinleyWest/Facade/4.webp",
+      "./img/ParkMckinleyWest/Facade/5.webp",
+      "./img/ParkMckinleyWest/Facade/6.webp",
+      "./img/ParkMckinleyWest/Facade/7.webp",
+      "./img/ParkMckinleyWest/Facade/8.webp",
+      "./img/ParkMckinleyWest/Facade/9.webp"
+    ],
+    "1BedroomUnit": [
+      "./img/ParkMckinleyWest/1BedroomUnit/1.webp",
+      "./img/ParkMckinleyWest/1BedroomUnit/2.webp",
+      "./img/ParkMckinleyWest/1BedroomUnit/3.webp",
+      "./img/ParkMckinleyWest/1BedroomUnit/4.webp",
+      "./img/ParkMckinleyWest/1BedroomUnit/5.webp",
+      "./img/ParkMckinleyWest/1BedroomUnit/6.webp",
+      "./img/ParkMckinleyWest/1BedroomUnit/7.webp",
+      "./img/ParkMckinleyWest/1BedroomUnit/8.webp",
+      "./img/ParkMckinleyWest/1BedroomUnit/9.webp",
+      "./img/ParkMckinleyWest/1BedroomUnit/10.webp",
+      "./img/ParkMckinleyWest/1BedroomUnit/11.webp"
+    ],
+    "2BedroomUnit": [
+      "./img/ParkMckinleyWest/2BedroomUnit/1.webp",
+      "./img/ParkMckinleyWest/2BedroomUnit/2.webp",
+      "./img/ParkMckinleyWest/2BedroomUnit/3.webp",
+      "./img/ParkMckinleyWest/2BedroomUnit/4.webp",
+      "./img/ParkMckinleyWest/2BedroomUnit/5.webp",
+      "./img/ParkMckinleyWest/2BedroomUnit/6.webp",
+      "./img/ParkMckinleyWest/2BedroomUnit/7.webp",
+      "./img/ParkMckinleyWest/2BedroomUnit/8.webp"
+    ],
+    "Floorplan": [
+      "./img/ParkMckinleyWest/Floorplan/1.webp",
+      "./img/ParkMckinleyWest/Floorplan/2.webp",
+      "./img/ParkMckinleyWest/Floorplan/3.webp",
+      "./img/ParkMckinleyWest/Floorplan/4.webp",
+      "./img/ParkMckinleyWest/Floorplan/5.webp",
+      "./img/ParkMckinleyWest/Floorplan/6.webp"
+    ]
+  },
+  "UptownModern": {
+    "Facade": [
+      "./img/UptownModern/Facade/1.webp",
+      "./img/UptownModern/Facade/2.webp",
+      "./img/UptownModern/Facade/3.webp",
+      "./img/UptownModern/Facade/4.webp",
+      "./img/UptownModern/Facade/5.webp",
+      "./img/UptownModern/Facade/6.webp",
+      "./img/UptownModern/Facade/7.webp"
+    ],
+    "Amenities": [
+      "./img/UptownModern/Amenities/1.webp",
+      "./img/UptownModern/Amenities/2.webp",
+      "./img/UptownModern/Amenities/3.webp",
+      "./img/UptownModern/Amenities/4.webp",
+      "./img/UptownModern/Amenities/5.webp",
+      "./img/UptownModern/Amenities/6.webp",
+      "./img/UptownModern/Amenities/7.webp",
+      "./img/UptownModern/Amenities/8.webp",
+      "./img/UptownModern/Amenities/9.webp",
+      "./img/UptownModern/Amenities/10.webp",
+      "./img/UptownModern/Amenities/11.webp",
+      "./img/UptownModern/Amenities/12.webp",
+      "./img/UptownModern/Amenities/13.webp",
+      "./img/UptownModern/Amenities/14.webp",
+      "./img/UptownModern/Amenities/15.webp",
+      "./img/UptownModern/Amenities/16.webp",
+      "./img/UptownModern/Amenities/17.webp",
+      "./img/UptownModern/Amenities/18.webp",
+      "./img/UptownModern/Amenities/19.webp",
+      "./img/UptownModern/Amenities/20.webp",
+      "./img/UptownModern/Amenities/21.webp"
+    ],
+    "Floorplan": [
+      "./img/UptownModern/Floorplan/1.webp",
+      "./img/UptownModern/Floorplan/2.webp",
+      "./img/UptownModern/Floorplan/3.webp",
+      "./img/UptownModern/Floorplan/4.webp",
+      "./img/UptownModern/Floorplan/5.webp"
+    ],
+    "UnitRenders": [
+      "./img/UptownModern/UnitRenders/1.webp",
+      "./img/UptownModern/UnitRenders/2.webp",
+      "./img/UptownModern/UnitRenders/3.webp",
+      "./img/UptownModern/UnitRenders/4.webp",
+      "./img/UptownModern/UnitRenders/5.webp",
+      "./img/UptownModern/UnitRenders/6.webp",
+      "./img/UptownModern/UnitRenders/7.webp",
+      "./img/UptownModern/UnitRenders/8.webp",
+      "./img/UptownModern/UnitRenders/9.webp",
+      "./img/UptownModern/UnitRenders/10.webp",
+      "./img/UptownModern/UnitRenders/11.webp"
+    ]
+  },
+  "9CentralPark": {
+    "Facade": [
+      "./img/_9CentralPark/Facade/1.webp",
+      "./img/_9CentralPark/Facade/2.webp",
+      "./img/_9CentralPark/Facade/3.webp",
+      "./img/_9CentralPark/Facade/4.webp",
+      "./img/_9CentralPark/Facade/5.webp",
+      "./img/_9CentralPark/Facade/6.webp",
+      "./img/_9CentralPark/Facade/7.webp",
+      "./img/_9CentralPark/Facade/8.webp",
+      "./img/_9CentralPark/Facade/9.webp",
+      "./img/_9CentralPark/Facade/10.webp",
+      "./img/_9CentralPark/Facade/11.webp",
+      "./img/_9CentralPark/Facade/12.webp",
+      "./img/_9CentralPark/Facade/13.webp",
+      "./img/_9CentralPark/Facade/14.webp",
+      "./img/_9CentralPark/Facade/15.webp",
+      "./img/_9CentralPark/Facade/16.webp",
+      "./img/_9CentralPark/Facade/17.webp",
+      "./img/_9CentralPark/Facade/18.webp",
+      "./img/_9CentralPark/Facade/19.webp",
+      "./img/_9CentralPark/Facade/20.webp",
+      "./img/_9CentralPark/Facade/21.webp",
+      "./img/_9CentralPark/Facade/22.webp"
+    ],
+    "UnitRenders": [
+      "./img/_9CentralPark/UnitRenders/1.webp",
+      "./img/_9CentralPark/UnitRenders/2.webp",
+      "./img/_9CentralPark/UnitRenders/3.webp",
+      "./img/_9CentralPark/UnitRenders/4.webp",
+      "./img/_9CentralPark/UnitRenders/5.webp",
+      "./img/_9CentralPark/UnitRenders/6.webp",
+      "./img/_9CentralPark/UnitRenders/7.webp",
+      "./img/_9CentralPark/UnitRenders/8.webp",
+      "./img/_9CentralPark/UnitRenders/9.webp",
+      "./img/_9CentralPark/UnitRenders/10.webp",
+      "./img/_9CentralPark/UnitRenders/11.webp",
+      "./img/_9CentralPark/UnitRenders/12.webp",
+      "./img/_9CentralPark/UnitRenders/13.webp",
+      "./img/_9CentralPark/UnitRenders/14.webp",
+      "./img/_9CentralPark/UnitRenders/15.webp",
+      "./img/_9CentralPark/UnitRenders/16.webp",
+      "./img/_9CentralPark/UnitRenders/17.webp",
+      "./img/_9CentralPark/UnitRenders/18.webp",
+      "./img/_9CentralPark/UnitRenders/19.webp",
+      "./img/_9CentralPark/UnitRenders/20.webp",
+      "./img/_9CentralPark/UnitRenders/21.webp",
+      "./img/_9CentralPark/UnitRenders/22.webp",
+      "./img/_9CentralPark/UnitRenders/23.webp",
+      "./img/_9CentralPark/UnitRenders/24.webp",
+      "./img/_9CentralPark/UnitRenders/25.webp",
+      "./img/_9CentralPark/UnitRenders/26.webp",
+      "./img/_9CentralPark/UnitRenders/27.webp",
+      "./img/_9CentralPark/UnitRenders/28.webp",
+      "./img/_9CentralPark/UnitRenders/29.webp",
+      "./img/_9CentralPark/UnitRenders/30.webp",
+      "./img/_9CentralPark/UnitRenders/31.webp",
+      "./img/_9CentralPark/UnitRenders/32.webp"
+    ],
+    "Floorplan": [
+      "./img/_9CentralPark/Floorplan/1.webp",
+      "./img/_9CentralPark/Floorplan/2.webp",
+      "./img/_9CentralPark/Floorplan/3.webp",
+      "./img/_9CentralPark/Floorplan/4.webp",
+      "./img/_9CentralPark/Floorplan/5.webp",
+      "./img/_9CentralPark/Floorplan/6.webp",
+      "./img/_9CentralPark/Floorplan/7.webp"
+    ]
+  }
+}

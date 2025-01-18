@@ -1,0 +1,544 @@
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.bgc {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bgc:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.9);
+}
+
+/* Left and Right sections - better padding on smaller devices */
+.left,
+.right {
+  width: 100%;
+  opacity: 0;
+  animation: slideIn 0.8s ease forwards;
+}
+
+.left {
+  animation-delay: 0.2s;
+}
+
+.right {
+  animation-delay: 0.4s;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+#form-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  transition: transform 0.3s ease;
+}
+
+#form-container:hover {
+  transform: scale(1.02);
+}
+
+#title {
+  color: white;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#form-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  background-color: #1da1f2;
+  filter: blur(5px);
+  transition: filter 0.3s ease;
+}
+
+#form-container:hover img {
+  filter: blur(3px);
+}
+
+#myForm {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px 25px 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  z-index: 1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#myForm:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.9);
+}
+
+h2 {
+  text-align: center;
+  user-select: none;
+  transition: color 0.3s ease;
+}
+
+/* Input Groups */
+.input-group {
+  margin-bottom: 20px;
+  transform: translateX(-20px);
+  opacity: 0;
+  animation: slideInInputs 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes slideInInputs {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--text-light);
+  font-weight: 500;
+  transition: var(--transition);
+  transform-origin: left;
+}
+
+.input-group:hover label {
+  transform: scale(1.05) translateX(5px);
+  color: var(--accent);
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: clamp(14px, 1.5vw, 16px);
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-light);
+  transition: var(--transition);
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  border-color: var(--accent);
+  background: rgba(255, 255, 255, 0.15);
+  outline: none;
+  transform: translateY(-2px);
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #222222;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+button:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: rgba(30, 203, 233, 0.5);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+button:hover {
+  background-color: #222222;
+  animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(30, 203, 233, 0.7);
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px rgba(30, 203, 233, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(30, 203, 233, 0);
+  }
+}
+
+.btn {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.cont {
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  transition: transform 0.3s ease;
+}
+
+.cont:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 950px) {
+  .btn,
+  .cont {
+    font-size: 0.9rem;
+  }
+}
+
+.right p {
+  padding: 7px;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  text-align: justify;
+  transition: transform 0.3s ease;
+}
+
+.right p:hover {
+  transform: translateX(5px);
+}
+.wrapper {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: bounceIn 1s ease;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.3);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Social Media Buttons */
+.wrapper {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  flex-wrap: wrap; /* Allow wrapping for better responsiveness */
+  justify-content: center; /* Center buttons */
+}
+
+.button {
+  position: relative;
+}
+
+.button a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  overflow: hidden;
+}
+
+.button .icon {
+  position: absolute;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.button i {
+  font-size: 20px;
+  color: var(--white);
+  transition: transform 0.3s ease;
+}
+
+.button span {
+  position: absolute;
+  left: 60px; /* Width of icon */
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+/* Hover Effects */
+.button a:hover {
+  width: 180px;
+}
+
+/* Social Media Colors */
+.button:nth-child(1) a:hover {
+  background: #1877f2; /* Facebook */
+}
+
+.button:nth-child(2) a:hover {
+  background: #e1306c; /* Instagram */
+}
+
+.button:nth-child(3) a:hover {
+  background: #ff0000; /* YouTube */
+}
+
+.button:nth-child(4) a:hover {
+  background: #000000; /* TikTok */
+}
+
+.button a:hover span {
+  opacity: 1;
+}
+
+.button a:hover i {
+  animation: iconBounce 0.6s ease infinite;
+}
+
+/* Animation */
+@keyframes iconBounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .wrapper {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .button a {
+    width: 50px;
+    height: 50px;
+  }
+
+  .button .icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .button i {
+    font-size: 18px;
+  }
+
+  .button a:hover {
+    width: 160px;
+  }
+
+  .button span {
+    font-size: 15px;
+    left: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .button a {
+    width: 45px;
+    height: 45px;
+  }
+
+  .button .icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .button i {
+    font-size: 16px;
+  }
+
+  .button a:hover {
+    width: 140px;
+  }
+
+  .button span {
+    font-size: 14px;
+    left: 45px;
+  }
+}
+.button-container {
+  margin-top: 4%;
+  text-align: center;
+  animation: fadeInUp 0.8s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.whatsapp-button {
+  background-color: #222222;
+  color: #ffffff;
+  border: none;
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ecbe9;
+  font-weight: bold;
+  color: #222222;
+  transform: translateY(-3px);
+}
+
+.whatsapp-icon {
+  margin-right: 20px;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-button:hover .whatsapp-icon {
+  transform: rotate(15deg);
+}
+
+/* Responsive Styles */
+
+@media (min-width: 1070px) {
+  .left,
+  .right {
+    width: 50%;
+    padding: 0px 15px;
+  }
+}
+
+@media (max-width: 950px) {
+  .left,
+  .right {
+    width: 100%;
+    padding: 5px 0px;
+  }
+
+  .wrapper .button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .wrapper .button:hover {
+    width: 180px;
+  }
+}
+
+@media (max-width: 800px) {
+  ._title {
+    font-size: 2rem;
+  }
+
+  .SocialMedia {
+    display: none;
+  }
+
+  .right p {
+    padding: 5px;
+    text-indent: 1.5em;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1rem;
+  }
+
+  .wrapper .button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .wrapper .button:hover {
+    width: 150px;
+  }
+
+  .input-group input,
+  .input-group textarea {
+    font-size: 14px;
+    padding: 8px;
+  }
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/icon.webp" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/ContactUs.css" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css"
+    />
+  </head>
+  <body>
+    <div id="header"></div>
+    <main>
+      <article>
+        <div class="container">
+          <h1 data-animate="fade-down">Contact Us</h1>
+          <div class="container1">
+            <div class="left" data-animate="fade-right" data-delay="200">
+              <div id="form-container">
+                <img
+                  src="./img/Appointment.webp"
+                  loading="lazy"
+                  alt="Appointment background"
+                />
+                <form id="myForm" method="POST">
+                  <!-- <h2 id="title">Send me a message</h2> -->
+                  <br />
+                  <input
+                    type="hidden"
+                    name="access_key"
+                    value="29b3bf7a-1b43-4163-8f43-f63af8a217fc"
+                  />
+                  <div class="input-group">
+                    <label for="name">Name:</label>
+                    <input
+                      id="name"
+                      name="name"
+                      placeholder="Enter your name"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="Enter your email"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <label for="mobile">Mobile Number:</label>
+                    <input
+                      type="tel"
+                      id="mobile"
+                      name="mobile"
+                      placeholder="Enter your mobile number"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <label for="telephone">Telephone Number:</label>
+                    <input
+                      type="tel"
+                      id="telephone"
+                      name="telephone"
+                      placeholder="Enter your telephone number (optional)"
+                    />
+                  </div>
+                  <div class="input-group">
+                    <label for="inquiry">Message:</label>
+                    <textarea
+                      id="inquiry"
+                      name="inquiry"
+                      placeholder="Enter your Message"
+                      required
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn">Submit</button>
+                </form>
+              </div>
+            </div>
+            <div class="right" data-animate="fade-left" data-delay="400">
+              <div class="bgc">
+                <h2>
+                  Reach out to me: <br />
+                  Ishi Carbonilla-Megaworld Specialist
+                </h2>
+
+                <br />
+                <div class="cont">
+                  <strong>Mobile/Viber/WhatsApp:</strong> <br />(+63) 962 554
+                  8989
+                </div>
+                <div class="cont">
+                  <strong>Email:</strong>
+                  <br />
+                  <a href="mailto:ishicarbonilla.megaworld@gmail.com"
+                    >ishicarbonilla.megaworld@gmail.com</a
+                  >
+                </div>
+                <div class="button-container">
+                  <a href="https://wa.me/639625548989" class="whatsapp-button">
+                    <i class="fab fa-whatsapp"></i> Message me on WhatsApp
+                  </a>
+                </div>
+                <br />
+                <!-- <div class="SocialMedia">
+                  <h2>Social Media</h2>
+                  <br />
+                  <div class="wrapper">
+                    <div class="button">
+                      <a href="https://www.facebook.com/MWaTFByIshi">
+                        <div class="icon"><i class="fab fa-facebook-f"></i></div>
+                        <span>Facebook</span>
+                      </a>
+                    </div>
+                    <div class="button">
+                      <a href="https://www.instagram.com/mwatfbyishi">
+                        <div class="icon"><i class="fab fa-instagram"></i></div>
+                        <span>Instagram</span>
+                      </a>
+                    </div>
+                    <div class="button">
+                      <a href="https://www.youtube.com/@MWaTFByIshi">
+                        <div class="icon"><i class="fab fa-youtube"></i></div>
+                        <span>YouTube</span>
+                      </a>
+                    </div>
+                    <div class="button">
+                      <a href="https://www.tiktok.com/@eesee.isee">
+                        <div class="icon"><i class="fab fa-tiktok"></i></div>
+                        <span>TikTok</span>
+                      </a>
+                    </div>
+                  </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    <div id="footer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script defer src="./js/jquery-3.6.0.min.js"></script>
+    <script defer src="./js/main.js"></script>
+  </body>
+</html>

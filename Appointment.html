@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schedule a Viewing</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/icon.webp" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/ContactUs.css" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css"
+    />
+  </head>
+  <body>
+    <div id="header"></div>
+    <main>
+      <article>
+        <div class="container scroll-fade-in">
+          <h1 class="slide-from-left">Appointment Form</h1>
+          <div class="container1">
+            <div class="left slide-from-left">
+              <div id="form-container">
+                <img
+                  src="./img/Appointment.webp"
+                  loading="lazy"
+                  alt="Appointment background"
+                />
+                <form id="myForm" method="POST">
+                  <input
+                    type="hidden"
+                    name="access_key"
+                    value="29b3bf7a-1b43-4163-8f43-f63af8a217fc"
+                  />
+                  <div class="input-group">
+                    <label for="name">Name:</label>
+                    <input
+                      id="name"
+                      name="name"
+                      placeholder="Enter your name"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="Enter your email"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <label for="datetime">Date and Time:</label>
+                    <input
+                      type="datetime-local"
+                      id="datetime"
+                      name="datetime"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <label for="mobile">Mobile Number:</label>
+                    <input
+                      type="tel"
+                      id="mobile"
+                      name="mobile"
+                      placeholder="Enter your mobile number"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <label for="telephone">Telephone Number:</label>
+                    <input
+                      type="tel"
+                      id="telephone"
+                      name="telephone"
+                      placeholder="Enter your telephone number (optional)"
+                    />
+                  </div>
+                  <div class="input-group">
+                    <label for="inquiry">Message:</label>
+                    <textarea
+                      id="inquiry"
+                      name="inquiry"
+                      placeholder="Enter your message"
+                      required
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn">Submit</button>
+                </form>
+              </div>
+            </div>
+            <div class="right slide-from-right">
+              <div class="bgc scroll-fade-in">
+                <h2>Arrange Your Viewing or Zoom Appointment</h2>
+                <br />
+                <p>
+                  Discover Our Projects Up Close at Our Showrooms! Arrange a
+                  Site Visit to Preview Our Actual Model Unit and Scale Model.
+                </p>
+                <p>
+                  For International Clients or Those Preferring Virtual Tours,
+                  We Offer Zoom Meetings as Well. Reach Out Today to Schedule
+                  Your Visit or Virtual Session
+                </p>
+                <br />
+                <!-- <div class="SocialMedia">
+                  <h2>Social Media</h2>
+                  <br />
+                  <div class="wrapper">
+                    <div class="button">
+                      <a href="https://www.facebook.com/MWaTFByIshi">
+                        <div class="icon">
+                          <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <span>Facebook</span></a
+                      >
+                    </div>
+                    <div class="button">
+                      <a
+                        href="https://www.instagram.com/mwatfbyishi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                      >
+                        <div class="icon">
+                          <i class="fab fa-instagram"></i>
+                        </div>
+                        <span>Instagram</span></a
+                      >
+                    </div>
+                    <div class="button">
+                      <a href="https://www.youtube.com/@MWaTFByIshi">
+                        <div class="icon">
+                          <i class="fab fa-youtube"></i>
+                        </div>
+                        <span>YouTube</span></a
+                      >
+                    </div>
+                    <div class="button">
+                      <a
+                        href="https://www.tiktok.com/@eesee.isee?is_from_webapp=1&sender_device=pc"
+                      >
+                        <div class="icon">
+                          <i class="fab fa-tiktok"></i>
+                        </div>
+                        <span>TikTok</span></a
+                      >
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    <div id="footer"></div>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script defer src="./js/jquery-3.6.0.min.js"></script>
+    <script defer src="./js/main.js"></script>
+  </body>
+</html>

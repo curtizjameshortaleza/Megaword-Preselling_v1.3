@@ -1,0 +1,280 @@
+{
+  "ParkMckinleyWest": [
+    {
+      "imageSrc": "./img/ParkMckinleyWest/UnitLayout/1.webp",
+      "title": "1 Bedroom Unit with Balcony",
+      "subtitle": "",
+      "area": 35
+    },
+    {
+      "imageSrc": "./img/ParkMckinleyWest/UnitLayout/2.webp",
+      "title": "1 Bedroom Unit with Balcony",
+      "subtitle": "",
+      "area": 48
+    },
+    {
+      "imageSrc": "./img/ParkMckinleyWest/UnitLayout/3.webp",
+      "title": "2 Bedroom Unit with Balcony",
+      "subtitle": "",
+      "area": 110
+    },
+    {
+      "imageSrc": "./img/ParkMckinleyWest/UnitLayout/4.webp",
+      "title": "2 Bedroom Unit with Balcony",
+      "subtitle": "",
+      "area": 106
+    },
+    {
+      "imageSrc": "./img/ParkMckinleyWest/UnitLayout/5.webp",
+      "title": "2 Bedroom Unit with Balcony",
+      "subtitle": "",
+      "area": 106
+    },
+    {
+      "imageSrc": "./img/ParkMckinleyWest/UnitLayout/6.webp",
+      "title": "3 Bedroom Unit with Balcony",
+      "subtitle": "",
+      "area": 118.5
+    },
+    {
+      "imageSrc": "./img/ParkMckinleyWest/UnitLayout/7.webp",
+      "title": "3 Bedroom PH with Balcony",
+      "subtitle": "",
+      "area": 212
+    },
+    {
+      "imageSrc": "./img/ParkMckinleyWest/UnitLayout/8.webp",
+      "title": "5 Bedroom Unit with Balcony",
+      "subtitle": "",
+      "area": 339.5
+    },
+    {
+      "imageSrc": "./img/ParkMckinleyWest/UnitLayout/9.webp",
+      "title": "Executive 1 Bedroom PH with Balcony",
+      "subtitle": "",
+      "area": 70.5
+    }
+  ],
+  "UptownArtsResidence": [
+    {
+      "imageSrc": "./img/UptownArtsResidence/UnitLayouts/1.webp",
+      "title": "3 Bedroom with Balcony",
+      "subtitle": "UNIT A",
+      "area": 128.5
+    },
+    {
+      "imageSrc": "./img/UptownArtsResidence/UnitLayouts/2.webp",
+      "title": "1 Bedroom Unit with Balcony",
+      "subtitle": "UNIT B, C, D, E & H",
+      "area": 41.5
+    },
+    {
+      "imageSrc": "./img/UptownArtsResidence/UnitLayouts/3.webp",
+      "title": "Executive 2 Bedroom with Balcony",
+      "subtitle": "UNIT F",
+      "area": 96
+    },
+    {
+      "imageSrc": "./img/UptownArtsResidence/UnitLayouts/4.webp",
+      "title": "2 Bedroom with Balcony",
+      "subtitle": "UNIT I",
+      "area": 84
+    },
+    {
+      "imageSrc": "./img/UptownArtsResidence/UnitLayouts/5.webp",
+      "title": "1 Bedroom with Balcony",
+      "subtitle": "UNIT J",
+      "area": 57
+    },
+    {
+      "imageSrc": "./img/UptownArtsResidence/UnitLayouts/6.webp",
+      "title": "Executive 1 Bedroom with Balcony",
+      "subtitle": "UNIT K",
+      "area": 58.5
+    },
+    {
+      "imageSrc": "./img/UptownArtsResidence/UnitLayouts/7.webp",
+      "title": "3 Bedroom with Balcony",
+      "subtitle": "UNIT A",
+      "area": 125.5
+    },
+    {
+      "imageSrc": "./img/UptownArtsResidence/UnitLayouts/8.webp",
+      "title": "Executive 2 Bedroom with Balcony",
+      "subtitle": "UNIT F",
+      "area": 96.5
+    },
+    {
+      "imageSrc": "./img/UptownArtsResidence/UnitLayouts/9.webp",
+      "title": "2 Bedroom with Balcony",
+      "subtitle": "UNIT I",
+      "area": 84
+    },
+    {
+      "imageSrc": "./img/UptownArtsResidence/UnitLayouts/10.webp",
+      "title": "Executive 1 Bedroom with Balcony",
+      "subtitle": "UNIT K",
+      "area": 60
+    },
+    {
+      "imageSrc": "./img/UptownArtsResidence/UnitLayouts/11.webp",
+      "title": "Executive 2 Bedroom with Balcony",
+      "subtitle": "UNIT F",
+      "area": 97
+    },
+    {
+      "imageSrc": "./img/UptownArtsResidence/UnitLayouts/12.webp",
+      "title": "Executive 1 Bedroom with Balcony",
+      "subtitle": "UNIT K",
+      "area": 60.5
+    }
+  ],
+  "UptownModern": [
+    {
+      "imageSrc": "./img/UptownModern/UnitLayouts/1.webp",
+      "title": "Studio",
+      "subtitle": "UNIT A",
+      "area": 40
+    },
+    {
+      "imageSrc": "./img/UptownModern/UnitLayouts/2.webp",
+      "title": "2 Bedroom with Balcony",
+      "subtitle": "UNIT A",
+      "area": 92
+    },
+    {
+      "imageSrc": "./img/UptownModern/UnitLayouts/3.webp",
+      "title": "Studio with Balcony",
+      "subtitle": "UNIT B",
+      "area": 44.5
+    },
+    {
+      "imageSrc": "./img/UptownModern/UnitLayouts/4.webp",
+      "title": "2 Bedroom with Balcony",
+      "subtitle": "UNIT P",
+      "area": 86
+    },
+    {
+      "imageSrc": "./img/UptownModern/UnitLayouts/5.webp",
+      "title": "3 Bedroom with Balcony",
+      "subtitle": "UNIT A",
+      "area": 125.5
+    },
+    {
+      "imageSrc": "./img/UptownModern/UnitLayouts/6.webp",
+      "title": "3 Bedroom with Balcony",
+      "subtitle": "UNIT A",
+      "area": 127
+    },
+    {
+      "imageSrc": "./img/UptownModern/UnitLayouts/7.webp",
+      "title": "1 Bedroom with Balcony",
+      "subtitle": "UNIT E",
+      "area": 58.5
+    },
+    {
+      "imageSrc": "./img/UptownModern/UnitLayouts/8.webp",
+      "title": "1 Bedroom with Balcony",
+      "subtitle": "UNIT H",
+      "area": 51
+    },
+    {
+      "imageSrc": "./img/UptownModern/UnitLayouts/9.webp",
+      "title": "Studio with Balcony",
+      "subtitle": "UNIT AA",
+      "area": 48.5
+    },
+    {
+      "imageSrc": "./img/UptownModern/UnitLayouts/10.webp",
+      "title": "3 Bedroom with Balcony",
+      "subtitle": "UNIT C",
+      "area": 134.5
+    },
+    {
+      "imageSrc": "./img/UptownModern/UnitLayouts/11.webp",
+      "title": "1 Bedroom with Balcony",
+      "subtitle": "UNIT B",
+      "area": 64.5
+    },
+    {
+      "imageSrc": "./img/UptownModern/UnitLayouts/12.webp",
+      "title": "2 Bedroom with Balcony",
+      "subtitle": "UNIT E",
+      "area": 97
+    }
+  ],
+  "9CentralPark": [
+    {
+      "imageSrc": "./img/_9CentralPark/UnitLayout/1.webp",
+      "title": "1 Bedroom with Balcony",
+      "subtitle": "UNIT A",
+      "area": 55.5
+    },
+    {
+      "imageSrc": "./img/_9CentralPark/UnitLayout/2.webp",
+      "title": "1 Bedroom with Balcony",
+      "subtitle": "UNIT C",
+      "area": 59
+    },
+    {
+      "imageSrc": "./img/_9CentralPark/UnitLayout/3.webp",
+      "title": "1 Bedroom with Balcony",
+      "subtitle": "UNIT C",
+      "area": 35.5
+    },
+    {
+      "imageSrc": "./img/_9CentralPark/UnitLayout/4.webp",
+      "title": "Studio with Balcony",
+      "subtitle": "UNIT B",
+      "area": 36.5
+    },
+    {
+      "imageSrc": "./img/_9CentralPark/UnitLayout/5.webp",
+      "title": "2 Bedroom with Balcony",
+      "subtitle": "UNIT A",
+      "area": 100
+    },
+    {
+      "imageSrc": "./img/_9CentralPark/UnitLayout/6.webp",
+      "title": "1 Bedroom with Balcony",
+      "subtitle": "UNIT E",
+      "area": 66
+    },
+    {
+      "imageSrc": "./img/_9CentralPark/UnitLayout/7.webp",
+      "title": "Studio with Balcony",
+      "subtitle": "UNIT N",
+      "area": 36.5
+    },
+    {
+      "imageSrc": "./img/_9CentralPark/UnitLayout/8.webp",
+      "title": "1 Bedroom with Balcony",
+      "subtitle": "UNIT D",
+      "area": 54
+    },
+    {
+      "imageSrc": "./img/_9CentralPark/UnitLayout/9.webp",
+      "title": "2 Bedroom with Balcony",
+      "subtitle": "UNIT A",
+      "area": 93
+    },
+    {
+      "imageSrc": "./img/_9CentralPark/UnitLayout/10.webp",
+      "title": "Studio with Balcony",
+      "subtitle": "UNIT H",
+      "area": 35.5
+    },
+    {
+      "imageSrc": "./img/_9CentralPark/UnitLayout/11.webp",
+      "title": "Studio with Balcony",
+      "subtitle": "UNIT E",
+      "area": 36.5
+    },
+    {
+      "imageSrc": "./img/_9CentralPark/UnitLayout/12.webp",
+      "title": "Studio with Balcony",
+      "subtitle": "UNIT F",
+      "area": 35.5
+    }
+  ]
+}
